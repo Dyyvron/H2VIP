@@ -9,6 +9,8 @@ Jalankan perintah berikut di Termux:
 pkg update
 pkg upgrade
 termux-setup-storage -y
+pkg install git
+git clone https://github.com/Dyyvron/H2VIP.git
 # akses untuk setup
 chmod +x setup
 chmod +x h2vip
