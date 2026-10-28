@@ -1,22 +1,34 @@
-# H2VIP L7
+# H2VIP L7 SMART METHODS FLOODxBYPASS
 
 ## Cara Install
 
 Jalankan perintah berikut di Termux:
 
-\`\`\`bash
+```bash
+# Update && Upgrade depe/paket terebih dahulu
+pkg update
+pkg upgrade
+termux-setup-storage -y
+# akses untuk setup
 chmod +x setup
 chmod +x h2vip
 ./setup
-\`\`\`
+```
+Cara pakai
+```bash
+#example
+./h2vip <url> <time> <rps> <threds>
+#example arrg
+./h2vip https://example.com 120 64 5
+```
 
 ---
 
-## FREE BY ELVA
+## FREE METHODS BY ELVA
 
-> ⚠️ **Khusus Termux**
+> **ONLY termux**
 
 ### Catatan
-- Pastikan Termux sudah terinstall dan update (\`pkg update && pkg upgrade\`)
-- Beri izin storage jika diminta (\`termux-setup-storage\`)
-- Jalankan command di atas secara berurutan, jangan di-skip
+- Dilarang keras menyalah gunakan tools untuk melakukan penyerangan pasif ke sebuah website seseorang yang akan erugikan seseorang!
+- Dilarang keras memperjual belikan methods
+- Tools di atas sudah include dengan smart proxy dan user-agents generator
