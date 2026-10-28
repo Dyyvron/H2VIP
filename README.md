@@ -12,6 +12,7 @@ termux-setup-storage -y
 pkg install git
 git clone https://github.com/Dyyvron/H2VIP.git
 # akses untuk setup
+cd H2VIP
 chmod +x setup
 chmod +x h2vip
 ./setup
